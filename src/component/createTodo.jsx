@@ -34,7 +34,7 @@ export default function MakeTodo() {
   };
 
   return (
-    <div className="bg-blue-950 text-white lg:w-[50%] p-20 m-auto shadow-2xl rounded-lg lg:border-3 lg:border-white flex flex-col gap-8 justify-center">
+    <div className="bg-blue-950 text-white lg:w-[50%] p-10 lg:p-20 lg:h-fit h-full m-auto shadow-2xl rounded-lg lg:border-3 lg:border-white flex flex-col gap-8 justify-center">
       <h1 className="text-3xl lg:text-4xl font-bold text-center">Todo App</h1>
       <div>
         <form
